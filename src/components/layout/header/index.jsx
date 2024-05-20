@@ -21,6 +21,9 @@ const Header = () => {
               <NavLink className="header__link">Services</NavLink>
             </li>
             <li className="header__item">
+              <NavLink to={"/mg"} className="header__link">Muhammadyusuf</NavLink>
+            </li>
+            <li className="header__item">
               <NavLink className="header__link">Login</NavLink>
             </li>
           </ul>
